@@ -11,11 +11,7 @@ public class CustomPropertiesConfigurator implements PropertiesConfigurator {
     public static final String SASL_MECHANISM = "sasl.mechanism";
 
     public enum SECURITY_PROTOCOLS {
-        PLAINTEXT, SSL, SASL_PLAINTEXT, SASL_SSL;
-
-        public String toString() {
-            return this.name();
-        }
+        PLAINTEXT, SSL, SASL_PLAINTEXT, SASL_SSL
     }
 
     /**
