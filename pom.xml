@@ -20,8 +20,10 @@
         <dependency>
             <groupId>com.ontotext.graphdb.plugins</groupId>
             <artifactId>connectors-authenticator-sdk</artifactId>
-            <version>16.0-SNAPSHOT</version>
-            <!--todo set the correct public version-->
+            <!--for GDB 10.x use: -->
+            <version>16.0.0-RC2</version>
+            <!--for GDB 9.11.x use: -->
+            <!--<version>15.2.0-RC1</version>-->
         </dependency>
         <dependency>
             <groupId>junit</groupId>
